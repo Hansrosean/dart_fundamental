@@ -47,8 +47,8 @@ void main() {
 
 
 /**
- * print() = menambahkan baris baru (masih belum pasti)
- * stdout.write() = tidak menambah baris baru (masih belum pasti)
+ * print() dan stdout.writeln() = menambahkan baris baru
+ * stdout.write() = tidak menambah baris baru
  * 
  * tanda "!" pada stdin.readLineSync() menandai input
    tidak mengembalikan nilai null
@@ -58,4 +58,6 @@ void main() {
  * jika ingin menambahkan input user, maka jalankan program di terminal
    bukan di debug console.
    caranya ketik dart bin/nama_file.dart
+ *
+ * sebelum menggunakan input output lewat terminal, save dulu filenya
  */
